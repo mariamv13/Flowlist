@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #0d0d0d 0%, #1a0a2e 50%, #0d0d0d 100%);
+  background-attachment: fixed;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+}
+
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.app-header::before {
+  content: '';
+  position: absolute;
+  top: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(124, 58, 237, 0.15) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.app-title {
+  position: relative;
+  z-index: 1;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.app-subtitle {
+  position: relative;
+  z-index: 1;
+  color: #aaa;
+  font-size: 1.1rem;
+}
+
+/* Formulario */
+.mood-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.form-group label {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.option-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.option-btn {
+  background: none;
+  border: 1px solid #333;
+  color: #ccc;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: all 0.2s;
+}
+
+.option-btn:hover {
+  border-color: #7c3aed;
+  color: #fff;
+}
+
+.option-btn.active {
+  background-color: #7c3aed;
+  border-color: #7c3aed;
+  color: #fff;
+}
+
+.generate-btn {
+  background-color: #7c3aed;
+  color: #fff;
+  border: none;
+  padding: 0.85rem 2rem;
+  border-radius: 999px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+  align-self: center;
+  margin-top: 1rem;
+}
+
+.generate-btn:hover:not(:disabled) {
+  background-color: #6d28d9;
+  transform: scale(1.05);
+}
+
+.generate-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Resultado */
+.playlist-result {
+  margin-top: 3rem;
+}
+
+.playlist-header {
+  margin-bottom: 1.5rem;
+}
+
+.playlist-title {
+  font-size: 1.6rem;
+  margin-bottom: 0.25rem;
+}
+
+.playlist-subtitle {
+  color: #aaa;
+  font-size: 0.95rem;
+}
+
+.track-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+/* Tarjeta de canción */
+.track-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+  transition: background-color 0.2s;
+}
+
+.track-card:hover {
+  background-color: #222;
+}
+
+.track-index {
+  color: #555;
+  font-size: 0.9rem;
+  min-width: 1.5rem;
+  text-align: center;
+}
+
+.track-image {
+  width: 48px;
+  height: 48px;
+  border-radius: 6px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.track-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.no-image {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2a2a2a;
+  font-size: 1.2rem;
+}
+
+.track-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  flex: 1;
+}
+
+.track-name {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.track-artist {
+  font-size: 0.85rem;
+  color: #aaa;
+}
+
+.track-link {
+  color: #7c3aed;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: color 0.2s;
+  padding: 0.25rem 0.5rem;
+}
+
+.track-link:hover {
+  color: #a78bfa;
+}
+
+.error-msg {
+  text-align: center;
+  color: #f87171;
+  margin-top: 1.5rem;
+  font-size: 0.95rem;
+}

@@ -1,0 +1,17 @@
+<svg width="680" height="320" viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Logo de Flowlist</title>
+  <desc>Auriculares estilizados con orejeras redondeadas y el texto Flowlist en naranja</desc>
+
+  <path d="M 220 140 A 80 80 0 0 1 380 140" fill="none" stroke="#ea580c" stroke-width="12" stroke-linecap="round"/>
+
+  <line x1="220" y1="140" x2="220" y2="170" stroke="#ea580c" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="220" cy="190" r="22" fill="#ea580c"/>
+  <circle cx="220" cy="190" r="13" fill="#c2410c"/>
+
+  <line x1="380" y1="140" x2="380" y2="170" stroke="#ea580c" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="380" cy="190" r="22" fill="#ea580c"/>
+  <circle cx="380" cy="190" r="13" fill="#c2410c"/>
+
+  <text x="340" y="275" text-anchor="middle" font-family="Segoe UI, sans-serif" font-weight="700" font-size="52" fill="#ea580c" letter-spacing="-1">Flowlist</text>
+  <text x="340" y="300" text-anchor="middle" font-family="Segoe UI, sans-serif" font-weight="400" font-size="16" fill="#fb923c" letter-spacing="3">MUSIC FOR YOUR MOOD</text>
+</svg>
