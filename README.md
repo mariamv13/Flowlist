@@ -4,9 +4,9 @@
 
 **Genera playlists según tu estado de ánimo, género y época.**
 
-[![React](https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react&logoColor=black)](https://react.dev)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react&logoColor=white)](https://react.dev)
 [![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=flat&logo=vite&logoColor=white)](https://vitejs.dev)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=flat&logo=javascript&logoColor=white)](https://developer.mozilla.org/es/docs/Web/JavaScript)
 [![Last.fm](https://img.shields.io/badge/Last.fm-API-D51007?style=flat&logo=lastdotfm&logoColor=white)](https://last.fm)
 
 </div>
