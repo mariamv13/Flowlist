@@ -1,6 +1,8 @@
+import { Music } from 'lucide-react'
+
 function TrackCard({ track, index }) {
   return (
-    <div className="track-card">
+    <div className="track-card" style={{ '--index': index }}>
       <span className="track-index">{index + 1}</span>
       <div className="track-image">
         {track.image ? (
@@ -20,7 +22,7 @@ function TrackCard({ track, index }) {
           rel="noopener noreferrer"
           className="track-link"
         >
-          ↗
+          <Music size={18} />
         </a>
       )}
     </div>
