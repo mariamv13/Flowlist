@@ -27,7 +27,6 @@ Aplicación web que genera playlists personalizadas combinando estado de ánimo,
 - 💾 Guardar playlists favoritas en el navegador (localStorage)
 - 📋 Compartir playlist copiando la lista al portapapeles
 - ▶️ Enlace directo a YouTube para escuchar cada canción
-- ✨ Animaciones de entrada al generar resultados
 
 ---
 
